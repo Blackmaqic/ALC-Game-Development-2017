@@ -45,9 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scipts\Battery.cs" />
+     <Compile Include="Assets\scipts\BatterySpawn.cs" />
      <Compile Include="Assets\scipts\GhostAI.cs" />
+     <Compile Include="Assets\scipts\Ghoststun.cs" />
      <Compile Include="Assets\scipts\PlayerMove.cs" />
      <Compile Include="Assets\scipts\flashlight.cs" />
+     <Compile Include="Assets\scipts\ghosthealth.cs" />
+     <Compile Include="Assets\scipts\smooth camra.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

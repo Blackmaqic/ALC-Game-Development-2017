@@ -1,8 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scipts/GhostAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scipts/flashlight.cs">
     <Files>
+      <File FileName="Assets/scipts/flashlight.cs" Line="56" Column="1" />
+      <File FileName="Assets/scipts/BatterySpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets/scipts/Ghoststun.cs" Line="1" Column="1" />
+      <File FileName="Assets/scipts/Battery.cs" Line="1" Column="1" />
       <File FileName="Assets/scipts/GhostAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/scipts/ghosthealth.cs" Line="1" Column="1" />
+      <File FileName="Assets/scipts/PlayerMove.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

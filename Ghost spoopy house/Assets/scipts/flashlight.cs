@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class flashlight : MonoBehaviour {
  
- public bool lightOn;
+ public bool lightOn = true;
 
  Light light;
 
@@ -18,17 +18,22 @@ public class flashlight : MonoBehaviour {
 		//Update is called once per frame
 		void Update() {
 			//Toggle light on/off when L key is pressed
-			else if (Input.GetKeyUp (KeyCode.F)&& !lightOn )) {
-				lightOn= true;
-				light.enabled = true;
+			if (Input.GetKeyUp (KeyCode.F) && lightOn ) {
+				lightOn= false;
+				light.enabled = false;
 
 			}
 
+
+
+		else if (Input.GetKeyUp (KeyCode.F) && !lightOn){
+			lightOn = true;
+			light.enabled = true;
+		}		
 		}
 
-	 
-	 }
- }
+	  }
+ 
 	
 	
 
